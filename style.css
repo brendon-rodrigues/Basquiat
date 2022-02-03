@@ -12,9 +12,13 @@ body{
 }
 .main_hd{
     width: 100%;
-    height: 100vh;
+    height: 15vh;
 
     background-size: cover;
+}
+.box-content-title-variation {
+    text-align: center;
+    padding: 3%;
 }
 .main_hd .main_hd-title{
     background-color: #fff;
@@ -22,32 +26,32 @@ body{
     font-weight: 600;
     padding: 1%;
 }
-.main_hd .main_hd-link{
+.main_bd .main_bd-link{
     display: flex;
     justify-content: center;
     font-size: 2em;
 }
-.main_hd .main_hd-content {
+.main_bd .main_bd-content {
     width: 30%;
     margin: 1%;
     background: #ffc801;
     height: 64vh;
 }
-.main_hd .main-pic-box{
+.main_bd .main-pic-box{
     width: 100%;
     display: flex;
     
     align-items: center;
     
 }
-.main_hd .media-img{
+.main_bd .media-img{
     border-radius: 5px;
 }
-.main_hd .box-content-title{
+.main_bd .box-content-title{
     margin-top: 4%;
     padding: 2%;
 }
-.main_hd .box-content-p{
+.main_bd .box-content-p{
     font-size: 1.2em;
     font-weight: 500;
     padding: 2%;
@@ -64,4 +68,18 @@ body{
 .box-content img{
     background-color: #ffc801;
     margin-bottom: 2%;
+}
+.main_bd .main_bd-title {
+    background-color: #fff;
+    text-align: center;
+    font-weight: 700;
+    padding: 1%;
+}
+.main_bd .gallery{
+    background: #ffc801 ;
+}
+.main_bd .gallery-img{
+    width: 100%;
+    margin: 2%;
+    
 }
