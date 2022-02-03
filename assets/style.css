@@ -1,0 +1,26 @@
+.main_bd{
+    width: 100%;
+    height: 100vh;
+    background-color: #57a3c3;
+    background-size: cover;
+}
+.main_bd .main-title{
+    text-align: center;
+    padding: 1%;
+}
+.main_bd .main-content {
+    /*! width: 80%; */
+    margin: 5%;
+    background: #ffc801;
+    border-radius: 10px;
+    height: 85vh;
+    padding: ;
+}
+.main_bd .main-pic-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main_bd .media-img{
+    border-radius: 5px;
+}
